@@ -1,0 +1,30 @@
+var obj = {
+	moon: document.getElementsByClassName('moon')[0],
+	sun: document.getElementsByClassName('sun')[0],
+	body: document.getElementsByTagName('body')[0],
+	audio: document.getElementsByTagName('audio')[0],
+	vol: document.getElementsByClassName('vol')[0],
+	wrapper: document.getElementsByClassName('wrapper')[0],
+	nextsong: document.getElementById('nextsong'),
+	backsong: document.getElementById('backsong'),
+	songName: document.getElementById('songName'),
+	wrap: document.getElementById('wrap'),
+	progress: document.getElementById('progress'),
+ 	wrapTimeDomain: document.getElementById('wrapTimeDomain'),
+ 	backgroundstyle: document.getElementById('backgroundstyle')
+};
+// var sColor;
+var pannerState, pannerCount, scrollLock, panner, songcoor, pastsongSrcCount, tdcxtStrokeStyle, keyDownCode, keyUpCode, imageUrlHolder, imageUrlCount, lock, boole, disX, volume, percent, core, arcRadius, cxt, tdcxt, AudioContext, context, source, analyser, output, output_1, length, musicSrcCount, musicSrcHolder,
+	moon = obj.moon,
+	sun = obj.sun,
+	body = obj.body,
+	audio = obj.audio,
+	vol = obj.vol,
+	wrapper = obj.wrapper,
+	nextsong = obj.nextsong,
+	backsong = obj.backsong,
+	songName = obj.songName,
+	wrap = obj.wrap,
+	progress = obj.progress,
+	wrapTimeDomain = obj.wrapTimeDomain,
+	backgroundstyle = obj.backgroundstyle;
